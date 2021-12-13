@@ -159,6 +159,10 @@ hr.hr {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae85fe', endColorstr='#8666ff', GradientType=0);
 }
 
+.bg-img-hero {
+  background-image: url('earth-1.jpeg');
+}
+
 /*-------margins padding--------*/
 
 .mg-tp-20 {
@@ -385,8 +389,8 @@ Navigation
 }
 
 .navbar-default {
-    padding: 20px 15px;
-    background-color: transparent;
+    padding: 8px 5px;
+    background-color: #8666ff;
     border-color: transparent;
     -webkit-transition: all .5s ease .25s;
     transition: all .5s ease .25s;
