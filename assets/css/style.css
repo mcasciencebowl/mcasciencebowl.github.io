@@ -17,12 +17,32 @@ Table of content
 /* Additional Code */
 .hero-background {
     background-image: url("../images/earth.jpg");
-    height: calc(100vh - 66px);
+    height: calc(100vh);
     width: 100%;
-    padding-top: 80px;
-    padding-bottom: 80px;
     background-repeat: no-repeat;
     background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text {
+    color: #FFFFFF;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hero-text1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hero-bottom-spacer {
+    height: 50vh;
 }
 
 
