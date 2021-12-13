@@ -720,7 +720,7 @@ About
 
 #about-app,
 #testimonials {
-    background-color: #f9f7ff;
+    background-color: rgba(7, 31, 78, 0.05);
 }
 
 .section-about {
@@ -875,11 +875,11 @@ Features
 
 .list-block li:before {
     font-family: 'ElegantIcons';
-    content: "\4e";
+    content: "\24";
     position: absolute;
     left: -8px;
     top: 10px;
-    color: #071f4e;
+    color: #fff;
     display: inline-block;
     background-color: #071f4e;
     width: 18px;
@@ -962,13 +962,13 @@ Features accordation
 
 .tab-accordion .panel-heading a[aria-expanded="true"] {
     background-color: #fff;
-    color: #ae85fd;
+    color: ##071f4e;
     box-shadow: 0 7px 15px rgba(0, 9, 128, 0.05), 0 12px 28px rgba(0, 9, 128, 0.075);
 }
 
 .tab-accordion .panel-heading a:hover,
 .tab-accordion .panel-heading a:focus {
-    color: #ae85fd;
+    color: ##071f4e;
     box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .15);
     background-color: #fff;
 }
@@ -1022,6 +1022,22 @@ Features accordation
     font-weight: 300;
 }
 
+
+/*FAQs*/
+
+.faq-text-col {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding-left: 10vh;
+}
+
+.faq-text-col-inner {
+    position: relative;
+    max-width: 560px;
+    padding: 50px 0 50px 15px;
+}
+
 /*----------------------------------------
 Testmonials
 ----------------------------------------*/
@@ -1048,7 +1064,7 @@ Testmonials
 .testimonial-caroussel.owl-theme .owl-dots .owl-dot.active span {
     width: 15px;
     height: 15px;
-    background: #906dfe;
+    background: #071f4e;
     margin: 3px 7px;
 }
 
@@ -1080,6 +1096,11 @@ Testmonials
     position: absolute;
     top: -80px;
     right: 0;
+}
+
+.quote-color {
+  filter: brightness(0) saturate(100%) invert(13%) sepia(13%) saturate(7491%) hue-rotate(200deg) brightness(91%) contrast(105%);
+
 }
 
 /*----------------------------------------
