@@ -376,8 +376,8 @@ Preloader page
 .loader {
     width: 56px;
     height: 56px;
-    border: 8px solid rgba(171, 130, 253, 0.25);
-    border-top-color: #8665fe;
+    border: 8px solid rgba(7, 31, 78, 0.25);
+    border-top-color: #071f4e;
     border-radius: 50%;
     position: relative;
     animation: rotate 1s linear infinite;
@@ -741,7 +741,7 @@ About
 
 .icon-block:hover,
 .icon-block:focus {
-    border-top: 4px solid #906dfe;
+    border-top: 4px solid #071f4e;
     padding: 40px;
     box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .20);
     border-radius: 15px;
@@ -758,7 +758,7 @@ About
 .icon-block i {
     font-size: 40px;
     line-height: 45px;
-    color: #8767ff;
+    color: #071f4e;
 }
 
 #about-app {
@@ -824,7 +824,7 @@ Features
     position: relative;
     font-size: 16px;
     line-height: 35px;
-    color: #7d7f92;
+    color: #071f4e;
     font-weight: 600;
 }
 
@@ -834,9 +834,9 @@ Features
     position: absolute;
     left: -8px;
     top: 10px;
-    color: #8967ff;
+    color: #071f4e;
     display: inline-block;
-    background-color: #e1d3ff;
+    background-color: #071f4e;
     width: 18px;
     line-height: 18px;
     height: 18px;
@@ -874,7 +874,7 @@ Features
 
 .feature-block a {
     font-size: 20px;
-    color: #8767ff;
+    color: #071f4e;
 }
 
 .feature-block a i {
@@ -1115,7 +1115,7 @@ Pricing
 .table-price .active .table-inner {
     border: none;
     box-shadow: 0 10px 35px 2px rgba(61, 61, 61, .20);
-    border-top: 4px solid #906dfe;
+    border-top: 4px solid #071f4e;
 }
 
 /*----------------------------------------
