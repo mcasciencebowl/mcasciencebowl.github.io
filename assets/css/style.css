@@ -905,11 +905,11 @@ Features
 Features accordation
 ----------------------------------------*/
 
-#features-acord .text-col-inner {
+#format .text-col-inner {
     padding: 0px 0 0 15px;
 }
 
-#features-acord .text-col-inner .text-content {
+#format .text-col-inner .text-content {
     padding-top: 0;
 }
 
@@ -936,7 +936,7 @@ Features accordation
     line-height: 25px;
 }
 
-#features-acord .panel-group.tab-accordion .panel-body {
+#format .panel-group.tab-accordion .panel-body {
     border-top: none;
 }
 
@@ -954,7 +954,7 @@ Features accordation
     margin-top: 40px;
 }
 
-#features-acord .tab-accordion .panel {
+#format .tab-accordion .panel {
     margin-top: 12px;
     box-shadow: none;
     background-color: transparent;
@@ -966,11 +966,11 @@ Features accordation
     color: #7d7f92;
 }
 
-#features-acord h2 {
+#format h2 {
     margin-bottom: 15px;
 }
 
-#features-acord h3 {
+#format h3 {
     margin-top: 0;
     font-weight: 300;
 }
@@ -1064,8 +1064,8 @@ Pricing
 }
 
 .table-inner {
-    min-height: 450px;
-    padding: 30px 40px;
+    min-height: 400px;
+    padding: 20px 30px;
     border-radius: 15px;
     -moz-border-radius: 15px;
     -webkit-border-radius: 15px;
@@ -1074,7 +1074,7 @@ Pricing
     box-shadow: 0 9px 16px 0 rgba(224, 229, 238, .5);
     border: solid 1px #e5eaed;
     position: relative;
-    padding: 30px 50px;
+    padding: 20px 30px;
 
 }
 
