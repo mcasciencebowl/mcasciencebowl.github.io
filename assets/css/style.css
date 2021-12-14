@@ -14,7 +14,39 @@ Table of content
 11.Blog
 12.Signle post
 
+
+
+
 /* Additional Code */
+
+.faqs-font-size {
+    font-size: 5px;
+}
+
+.section-padding {
+    height: 150px;
+}
+
+.faqs-outer-outer-mcasb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.faqs-outer-mcasb {
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    width: 600px;
+}
+.faqs-inner-mcasb {
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+}
+
+
 .hero-background {
     background-image: url("../images/earth.jpg");
     height: calc(100vh);
@@ -780,6 +812,10 @@ About
 
 .section-padd {
     padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 .about-text h2,
@@ -1032,7 +1068,9 @@ Features accordation
     background-color: transparent;
 }
 
-.tab-accordion .panel-body p {
+/* Check Here Again */
+
+.tab-accordion .panel-body {
     font-weight: 500;
     font-size: 18px;
     color: #7d7f92;
