@@ -90,8 +90,33 @@ Table of content
 }
 
 
+.registration-module {
+    display: flex;
+    flex-direction: row;
+}
 
+.left-registration {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: right;
+    padding-right: 50px;
+}
 
+.right-registration {
+    width: 50%;
+}
+
+.registration-left-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.left-registration-outer {
+    height: 100%;
+    width: 545px;
+}
 
 
 
