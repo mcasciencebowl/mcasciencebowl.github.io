@@ -9,8 +9,8 @@ $(document).ready(function ($) {
         $("#loading-center-page").fadeOut();
         $("#loading-page").delay(400).fadeOut("slow");
     });
-    
-    
+
+
     /* ---------------------------------------------
   Accordion
  --------------------------------------------- */
@@ -18,21 +18,21 @@ $(document).ready(function ($) {
         $(".collapse.in").each(function(){
             $(this).siblings(".panel-heading").find(".icon-accordion").addClass(" arrow_carrot-up").removeClass(" arrow_carrot-down ");
         });
-  
+
         $(".collapse").on('show.bs.collapse', function(){
             $(this).parent().find(".icon-accordion").removeClass(" arrow_carrot-down ").addClass(" arrow_carrot-up");
         }).on('hide.bs.collapse', function(){
             $(this).parent().find(".icon-accordion").removeClass("arrow_carrot-up").addClass(" arrow_carrot-down ");
 
       });
-    
-    
-    
+
+
+
     /* ---------------------------------------------
  owl caroussel
  --------------------------------------------- */
 
- 
+
 
 
 $('.testimonial-caroussel').owlCarousel({
@@ -42,7 +42,7 @@ $('.testimonial-caroussel').owlCarousel({
     dots:true,
     autoplay: true,
     autoplayTimeout: 4000,
-    smartSpeed: 500, 
+    smartSpeed: 500,
     responsive: {
         0: {
             items: 1,
@@ -66,7 +66,7 @@ $('.client-caroussel').owlCarousel({
     dots:false,
     autoplay: true,
     autoplayTimeout: 4000,
-    smartSpeed: 500, 
+    smartSpeed: 500,
     responsive: {
         0: {
             items: 2,
@@ -80,7 +80,7 @@ $('.client-caroussel').owlCarousel({
         }
     }
 });
- 
+
 
 
 /*----------------------------------------------------*/
@@ -89,17 +89,17 @@ $('.client-caroussel').owlCarousel({
 
     $('.video-modal').magnificPopup({
             type: 'iframe',
-              
+
                 iframe: {
                     patterns: {
                         youtube: {
-               
+
                             index: 'youtube.com',
                             src: 'https://www.youtube.com/embed/7e90gBu4pas'
-                
+
                                 }
                             }
-                        }                 
+                        }
         });
 /* ---------------------------------------------
  Back top page scroll up
@@ -162,6 +162,6 @@ function mailchimpCallRep(resp)
     } else if (resp.result === "error") {
         $(".error-message").html(resp.msg).fadeIn(1000);
     }
-} 
+}
 
   });
