@@ -818,6 +818,10 @@ About
     text-align: center;
     justify-content: center;
 }
+.schedule-padd {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
 
 .about-text h2,
 .text-content h2,
