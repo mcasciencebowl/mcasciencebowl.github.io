@@ -10,6 +10,10 @@
     <title>MCASB</title>
 
     <!--External Stylesheets css-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -47,6 +51,10 @@
 
 
 <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+  <div id="overlay" onclick="off()"></div>
+
+  <div style="position: relative;" >
+
 
     <!-- Page Preloader -->
 
@@ -60,9 +68,25 @@
 
     </div>
 
+
+
     <!--header-->
 
     <header>
+      <div id="toast" data-autohide="false" style="">
+        <div class="toast-header" style="background-color: rgba(255,255,255,.95);">
+
+          <strong class="mr-auto">Registration Due Date</strong>
+          <!-- <small class="text-muted">3 days ago</small> -->
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close" onclick="off()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="toast-body">
+          MCASB Registration is due by <b>March 19th!</b> Make sure to register your team by then.
+        </div>
+      </div>
+
 
 
         <div class="navbar navbar-default navbar-fixed-top affix-top" role="navigation" data-spy="affix" data-offset-top="50">
@@ -103,20 +127,14 @@
                         <li>
                             <a data-scroll="" href="#schedule" class="section-scroll">Schedule </a>
                         </li>
-                        <li>
-                            <a data-scroll="" href="#format" class="section-scroll">Format </a>
-                        </li>
 
-                        <li>
-                            <a data-scroll="" href="#prizes" class="section-scroll">Prizes </a>
-                        </li>
+
+                        
 
                         <li>
                             <a data-scroll="" href="#contact" class="section-scroll">Contact </a>
                         </li>
-                        <li>
-                            <a data-scroll="" href="#sponsors" class="section-scroll">Sponsors</a>
-                        </li>
+
 
                         <li>
                             <a data-scroll="" href="#faqs" class="section-scroll">FAQs</a>
@@ -141,6 +159,7 @@
     <!--Begin Hero Section-->
 
     <section>
+
 
         <div class = "hero-background">
 
@@ -1230,6 +1249,11 @@
     </div>
 
     <!--Modal login -->
+    <script>
+$(document).ready(function(){
+  $('.toast').toast('show');
+});
+</script>
 
     <!-- jQuery -->
     <script src="assets/js/jquery-1.12.4.min.js "></script>
@@ -1246,4 +1270,5 @@
     <script src="assets/js/jquery.ajaxchimp.min.js "></script>
     <!-- Main js -->
     <script src="assets/js/main.js "></script>
+    </div>
 </body>

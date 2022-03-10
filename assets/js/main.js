@@ -165,3 +165,10 @@ function mailchimpCallRep(resp)
 }
 
   });
+
+  function off() {
+    $("#toast").fadeOut();
+    $("#overlay").delay(300).fadeOut("slow");
+    //document.getElementById("overlay").style.display = "none";
+    //document.getElementById("toast").style.display = "none";
+  }
