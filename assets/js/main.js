@@ -172,3 +172,20 @@ function mailchimpCallRep(resp)
     //document.getElementById("overlay").style.display = "none";
     //document.getElementById("toast").style.display = "none";
   }
+
+
+
+  $('.accordion__header').click(function(e) {
+	e.preventDefault();
+	var currentIsActive = $(this).hasClass('is-active');
+	$(this).parent('.accordion').find('> *').removeClass('is-active');
+	if(currentIsActive != 1) {
+		$(this).addClass('is-active');
+		$(this).next('.accordion__body').addClass('is-active');
+	}
+});
+
+$('#sponsor-carousel').carousel({
+    interval: 3000,
+    cycle: true
+  }); 
