@@ -868,9 +868,24 @@ About
     text-align: center;
     justify-content: center;
 }
-.schedule-padd {
-    padding-left: 10vw;
-    padding-right: 10vw;
+
+@media only screen and (min-width: 450px) {
+    .schedule-padd {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 450px) {
+    .schedule-padd {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .tobehidden {
+        display: none;
+    }
 }
 
 .about-text h2,
@@ -2283,28 +2298,26 @@ Signle post
 
 /* Custom Component */
 
-@media only screen and (min-width: 0px) and (max-width: 1000px) {   
-
-}
-
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 0px) and (max-width: 1050px) {   
     .info {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         min-height: 900px;
         background-color: #333333;
         margin-top: 50px;
-        margin-bottom: 50px;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .left-info {
-        width: 50%;
-        padding-left: 10vw;
-        padding-right: 30px;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
         display: flex;
         flex-direction: column;
+        height: 600px;
+        order: 2;
+        text-align: center;
     }
 
     .iframe-class {
@@ -2313,12 +2326,15 @@ Signle post
     }
 
     .right-info {
-        padding-right: 10vw;
-        padding-left: 30px;
+        padding-right: 20px;
+        padding-left: 20px;
         padding-top: 15px;
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
+        order: 1;
+        text-align: center;
+        padding-bottom: 50px;
     }
 
     .info-header {
@@ -2327,6 +2343,7 @@ Signle post
         font-weight: 600;
         padding-bottom: 30px;
         width: 100%;
+        line-height: 50px;
     }
 
     .info-subheader {
@@ -2334,6 +2351,7 @@ Signle post
         font-family: 'Hk_Groteskregular', sans-serif;
         color: white;
         padding-left: 2px;
+        padding-bottom: 30px;
     }
 
     .accordion__header {
@@ -2401,5 +2419,139 @@ Signle post
 
     .accordion {
         width: 100%;
+    }
+
+    .accordion-text {
+        color: white;
+    }
+
+    .accordion-titles {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .info {
+        display: flex;
+        flex-direction: row;
+        min-height: 900px;
+        background-color: #333333;
+        margin-top: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .left-info {
+        width: 50%;
+        padding-left: 10vw;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .iframe-class {
+        width: 100%;
+        height: 100%;
+    }
+
+    .right-info {
+        padding-right: 10vw;
+        padding-left: 30px;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .info-header {
+        font-size: 50px;
+        color: white;
+        font-weight: 600;
+        padding-bottom: 30px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .info-subheader {
+        font-size: 26px;
+        font-family: 'Hk_Groteskregular', sans-serif;
+        color: white;
+        padding-left: 2px;
+        padding-bottom: 30px;
+    }
+
+    .accordion__header {
+        padding: 1em;
+        background-color: #ffffff;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .accordion__header > * {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .accordion__header.is-active {
+        background-color: #000;
+        color: #fff;
+    }
+    
+    .accordion__toggle {
+        margin-left: 10px;
+        height: 3px;
+        background-color: #222;
+        width: 13px;
+        display: block;
+        position: relative;
+        flex-shrink: 1;
+        border-radius: 2px;
+    }
+    
+    .accordion__toggle::before {
+        content: "";
+        width: 3px;
+        height: 13px;
+        display: block;
+        background-color: #222;
+        position: absolute;
+        top: -5px;
+        left: 5px;
+        border-radius: 2px;
+    }
+    
+    .is-active .accordion__toggle {
+        background-color: #fff;
+    }
+    .is-active .accordion__toggle::before {
+        display: none;
+    }
+    
+    
+    .accordion__body {
+        display: none;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-top: 0;
+    }
+    .accordion__body.is-active {
+        display: flex;
+        width: 100%;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .accordion-text {
+        color: white;
+    }
+
+    .accordion-titles {
+        font-size: 20px;
     }
 }
