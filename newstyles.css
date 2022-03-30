@@ -1,0 +1,16 @@
+.faqs-main-new {
+    width: 100vw;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .faqs-left-new {
+    width: 50%;
+    padding-left: 200px;
+    padding-right: 50px;
+  }
+  
+  .faqs-right-new {
+    width: 50%;
+  }
