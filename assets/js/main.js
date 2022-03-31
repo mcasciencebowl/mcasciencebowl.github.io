@@ -189,3 +189,13 @@ $('#sponsor-carousel').carousel({
     interval: 3000,
     cycle: true
   }); 
+
+  $('.accordion__header-new').click(function(e) {
+	e.preventDefault();
+	var currentIsActive = $(this).hasClass('is-active');
+	$(this).parent('.accordion-new').find('> *').removeClass('is-active');
+	if(currentIsActive != 1) {
+		$(this).addClass('is-active');
+		$(this).next('.accordion__body-new').addClass('is-active');
+	}
+});
