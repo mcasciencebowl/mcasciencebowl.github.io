@@ -7,498 +7,305 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="MCASB">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon-32x32.png">
     <title>MCASB</title>
 
-    <!--External Stylesheets css-->
+    <!-- Stylesheets -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-    <!--elegant icon font -->
+    <!-- Elegant Icon Font -->
     <link rel="stylesheet" href="assets/css/elegant-icons.css">
-    <!--Animate -->
+
+    <!-- Animate -->
     <link rel="stylesheet" href="assets/css/animate.css">
 
-    <!-- Owl-carousel-->
+    <!-- Owl-Carousel -->
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
-
-    <!-- Magnific Popup-->
+    <!-- Magnific Popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
 
-    <!--Template Stylesheets css-->
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="newstyles.css">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
 
+    <!-- Modernizr -->
     <script src="assets/js/modernizr.js"></script>
-
-
     <!--[if lt IE 9]>
-  <script src="assets/js/html5shiv.min.js"></script>
-  <script src="assets/js/respond.min.js"></script>
-<![endif]-->
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
 
-
 <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
-    <div id="overlay" onclick="off()"></div>
-
+    <!-- Gray overlay -->
+    <!-- <div id="overlay" onclick="off()"></div> -->
     <div style="position: relative;">
-
-
-        <!-- Page Preloader -->
-
+        <!-- Loader -->
         <div id="loading-page">
             <div id="loading-center-page">
                 <div id="loading-center-absolute">
-
                     <div class="loader"></div>
                 </div>
             </div>
-
         </div>
-
-
-
-        <!--header-->
-
         <header>
-            <div id="toast" data-autohide="false" style="">
+            <!-- Pop-up post-competition -->
+            <!-- <div id="toast" data-autohide="false" style="">
                 <div class="toast-header" style="background-color: rgba(255,255,255,.95);">
-
                     <strong class="mr-auto">Final Results Uploaded</strong>
-                    <!-- <small class="text-muted">3 days ago</small> -->
                     <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close"
                         onclick="off()">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="toast-body">
-                    Thank you once again for attending the Middlesex County Academy Second Annual Science Bowl! Full results have been uploaded now. We hope to see you again next year!
+                    Thank you once again for attending the Middlesex County Academy Third Annual Science Bowl! Full results have been uploaded now. We hope to see you again next year!
                 </div>
-            </div>
-
-
-
+            </div> -->
             <div class="navbar navbar-default navbar-fixed-top affix-top" role="navigation" data-spy="affix"
                 data-offset-top="50">
-
                 <div class="container">
 
                     <!-- Mobile navigation -->
-
                     <div class="navbar-header">
-
                         <button type="button" class="navbar-toggle dropdown-button waves-effect waves-teal btn-flat"
                             data-toggle="collapse" data-target="#navbar-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-
                         </button>
 
                         <!-- Logo -->
-
                         <a class="navbar-brand logo" href="/">
                             <h1 style="color: #fff; margin-top: 10px; margin-left: 8px">MCASB</h1>
                         </a>
                     </div>
 
-                    <!--Links Menu-->
+                    <!--Links menu-->
                     <div class="navbar-collapse collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active active-link">
+                            <li>
                                 <a data-scroll="" href="#home" class="section-scroll">Home</a>
                             </li>
-
                             <li>
                                 <a data-scroll="" href="#about" class="section-scroll">About</a>
                             </li>
                             <li>
                                 <a data-scroll="" href="#schedule" class="section-scroll">Schedule </a>
                             </li>
-
                             <li>
                                 <a data-scroll="" href="#faqs" class="section-scroll">FAQs</a>
                             </li>
                             <li>
-                                <a href = "team">Team</a>
+                                <a href="team.html">Team</a>
                             </li>
-
-                            <li>
-                                <a  href="results">Results + Archive</a>
                             </li>
-
-
-
-
-
-
-
-
                         </ul>
                     </div>
-
                 </div>
-
             </div>
-
         </header>
+
         <!--Header-->
-
-        <!--Begin Hero Section-->
-
-        <section>
-
-
+        <section id="home">
             <div class="hero-background">
-
                 <p class="hero-text0">MCA Science Bowl</p>
-                <p class="hero-text1">March 26th, 2022</p>
+                <p class="hero-text1">April 22, 2023</p>
+                <!-- Timings -->
                 <!-- <p class = "hero-text1">8:30am - 4:30pm</p> -->
                 <div class="hero-button-holder">
-                    <!-- <p class = "hero-text1">8:30am - 4:30pm</p> -->
-                    <a class="hero-button0" href="https://forms.gle/qLbuCH4LnZw3vmb86">Register Now</a>
+                    <a class="hero-button0" href="#">Register Now</a>
                 </div>
                 <div class="hero-bottom-spacer"></div>
             </div>
         </section>
 
-
-        <!--End Hero Section-->
-
-
         <!--About-->
         <section id="about" class="section-about" style="padding-bottom: 0px;">
-
-            <!--container-->
-
             <div class="container ">
                 <div class="row ">
-
                     <div class="row-centered ">
-
                         <div class="col-centered col-md-6 col-xs-12 ">
-
                             <div class="about-text text-center ">
-
                                 <h2>About MCASB</h2>
-
                                 <p>The Middlesex County Academy Science Bowl is a science-based competition hosted for
                                     students in grades 5-8. In contrast to other science competitions, MCASB gives
                                     students the opportunity to compete in 3 different competition formats, including a
-                                    team preliminary test, sprint round, and quiz bowl tournament.
+                                    team preliminary test, sprint round, Quiz Bowl tournament.
                                 </p>
-
                             </div>
-
                         </div>
-
                     </div>
-
                     <div class="pd-tp-50 clearfix ">
-
                         <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp ">
                             <div class="icon-block ">
-
                                 <i class="icon_pushpin_alt "></i>
                                 <h3>Location</h3>
-                                <p>Middlesex County Academy, 100 Technology Drive, Edison, NJ 08837</p>
-
+                                <p>Edison Academy Magnet School, 100 Technology Drive, Edison, NJ 08837</p>
                             </div>
-
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp ">
-
                             <div class="icon-block ">
-
                                 <i class=" icon_genius "></i>
                                 <h3>Type</h3>
                                 <p>Primarily Middle School Competition (5th Grade Elementary School Students Allowed),
                                     Teams of 3-5 People
                                 </p>
-
                             </div>
-
                         </div>
-
                         <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp ">
-
                             <div class="icon-block ">
-
                                 <i class="icon_currency_alt "></i>
                                 <h3>Fees</h3>
-                                <p>$15 Per Person <br> (Food + Complementary Shirts Included)</p>
-
+                                <p>$15 Per Person
+                                    <!-- <br> (Food + Complementary Shirts Included) <br> -->
+                                </p>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-            <!--container-->
-
         </section>
 
-
-
-        <!--
-
-    <section id="sponsors" class="section-sponsors section-padd">
-      <div class="about-text text-center " style="padding-bottom:6vh;">
-          <h2 >Our Sponsors</h2>
-      </div>
-
-
-        <div class="container ">
-            <div class="row ">
-                <div class="client-caroussel ">
-
-                    <div class="item ">
-
-                        <div class="client-item-img ">
-                            <img src="assets/images/c2.png " class="img-responsive " alt=" " title=" " style="width:15vw; ">
-                        </div>
-                    </div>
-                    <div class="item ">
-
-                        <div class="client-item-img ">
-                            <img src="assets/images/stickergiant.png " class="img-responsive " alt=" " title=" " style="width:8vw;">
-                        </div>
-                    </div>
-
-                    <div class="item ">
-
-                        <div class="client-item-img ">
-                            <img src="assets/images/aops.png " class="img-responsive " alt=" " title=" " style="width:15vw;">
-                        </div>
-                    </div>
-
-                    <div class="item ">
-
-                        <div class="client-item-img ">
-                            <img src="assets/images/codeie.png " class="img-responsive " alt=" " title=" " style="width:15vw;">
-                        </div>
-                    </div>
-
-                    <div class="item ">
-
-                        <div class="client-item-img ">
-                            <img src="assets/images/wolfram.png " class="img-responsive " alt=" " title=" " style="width:15vw;">
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </section>
--->
-
-
-
-        <!--About app-->
-
+        <!-- Registration -->
         <section10 class="reg">
             <div10 class="reg_left">
                 <img class="reg_image" src="assets/images/stars.svg" />
             </div10>
             <div10 class="reg_right">
                 <p10 class="reg_header">Register Now!</p10>
-                <p10 class="reg_text">Please register your team on our google form. For each team, we need to know the
-                    team name, each team member's name, email, school name, and grade in school.</p10>
+                <p10 class="reg_text">
+                    Please register your team on our google form. For each team, we need to know the
+                    team name, each team member's name, email, school name, and grade in school.
+                </p10>
                 <p10 class="reg_text">If you have any questions, please feel free to contact us through our email
-                    mcasciencebowl@gmail.com. Good luck!</p10>
-                <a href="https://forms.gle/qLbuCH4LnZw3vmb86" class="btn btn-color reg_button">Register Here</a>
+                    mcasciencebowl@gmail.com. Good luck!
+                </p10>
+                <a href="#" class="btn btn-color reg_button">Register Here</a>
             </div10>
         </section10>
-        <!--
-    <section id="register" class="padd-40 clearfix">
 
-        <div class="col-image ">
-            <div class="col-image-inner ">
-                <figure>
-                    <img src="assets/images/stars.svg " style="margin-right: -40px;" alt="">
-                </figure>
-            </div>
-
-        </div>
-        <div class="text-col ">
-            <div class="text-col-inner ">
-                <div class="text-content ">
-                    <h2>Register Now!</h2>
-
-                    <p>
-                        Please register your team on our google form. For each team, we need to know the team name, each team member's name, email, school name, and grade in school. </p>
-                    <p class="mg-bt-30 ">If you have any questions, please feel free to contact us through our email mcasciencebowl@gmail.com. Good luck!</p>
-                    <a href="https://forms.gle/qLbuCH4LnZw3vmb86" class="btn btn-color ">Register Here</a>
-                </div>
-
-            </div>
-        </div> -->
-
-        </section>
-
-
-
-        <!--End About app-->
-
-
-        <section id="schedule">
+        <!-- Schedule -->
+        <!-- <section id="schedule">
             <div class="section-padding">
-
             </div>
             <div class="container-fluid">
-
-
-
                 <div class="about-text text-center " style="padding-bottom:4vh;">
                     <h2>Schedule</h2>
                 </div>
-
                 <div class="schedule-padd">
-
-
                     <table class="table">
-
-
                         <thead>
                             <tr>
                                 <th>Time</th>
                                 <th>Event Name</th>
                                 <th class="tobehidden">Location</th>
                                 <th>Building</th>
-
                             </tr>
                         </thead>
-
                         <tbody>
-
-
                             <tr>
                                 <td>8:30</td>
                                 <td>Team Check-In Opens</td>
                                 <td class="tobehidden">Foyer</td>
                                 <td>Middlesex County Academy</td>
-
                             </tr>
-
                             <tr>
                                 <td>9:00</td>
                                 <td>Opening Ceremony</td>
                                 <td class="tobehidden">Commons</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                             <tr>
                                 <td>9:45</td>
                                 <td>Preliminary Test Begins</td>
                                 <td class="tobehidden">Testing Rooms</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                             <tr>
                                 <td>10:45</td>
                                 <td>Preliminary Test Ends</td>
                                 <td class="tobehidden">Testing Rooms</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                             <tr>
                                 <td>11:10</td>
                                 <td>Guts Round Begins</td>
                                 <td class="tobehidden">West Hall</td>
                                 <td>Middlesex College</td>
                             </tr>
-
                             <tr>
                                 <td>12:10</td>
                                 <td>Guts Round Ends</td>
                                 <td class="tobehidden">West Hall</td>
                                 <td>Middlesex College</td>
                             </tr>
-
                             <tr>
                                 <td>12:15</td>
                                 <td>Lunch</td>
                                 <td class="tobehidden">West Hall</td>
                                 <td>Middlesex College</td>
                             </tr>
-
                             <tr>
                                 <td>1:20</td>
                                 <td>Playoff Round Begins</td>
                                 <td class="tobehidden">Testing Rooms</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                             <tr>
                                 <td>4:00</td>
                                 <td>Playoff Round Ends</td>
                                 <td class="tobehidden">Testing Rooms</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                             <tr>
                                 <td>4:15</td>
                                 <td>TBA</td>
                                 <td class="tobehidden">Commons</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                             <tr>
                                 <td>4:40</td>
                                 <td>Closing/Awards Ceremony</td>
                                 <td class="tobehidden">Commons</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                             <tr>
                                 <td>5:00</td>
                                 <td>End of Event</td>
                                 <td class="tobehidden">Commons</td>
                                 <td>Middlesex County Academy</td>
                             </tr>
-
                         </tbody>
                     </table>
                 </div>
-
-
-
             </div>
-        </section>
+        </section> -->
 
-        <!-- Info Module -->
-        <section1 class="info">
-
+        <!-- Information -->
+        <section1 class="info" id="info">
             <div1 class="left-info">
-                <iframe class="iframe-class" src="testedtopics2022.pdf">
+                <iframe class="iframe-class" src="topics-2023.pdf">
                     <p1>Your browser does not support iframes.</p1>
                 </iframe>
             </div1>
-
             <div1 class=right-info>
                 <p1 class="info-header">Competition Format</p1>
                 <p1 class="info-subheader">How does MCASB work?</p1>
-
                 <div10 class="accordion">
                     <div10 class="accordion__header">
-
                         <h210 class="accordion-titles is-active">Preliminary Round</h210>
                         <span10 class="accordion__toggle is-active"></span10>
                     </div10>
@@ -506,535 +313,371 @@
                         <p10 class="accordion-text is-active">In the preliminary round, participants take a team test
                             consisting of multiple-choice and short answer questions. Topics tested include biology,
                             earth science, chemistry, and physics. A team's score in this round contributes to their
-                            final score.</p10>
+                            final score.
+                        </p10>
                     </div10>
                     <div10 class="accordion__header">
                         <h210 class="accordion-titles">Sprint Round</h210>
                         <span10 class="accordion__toggle"></span10>
                     </div10>
                     <div10 class="accordion__body">
-                        <p10 class="accordion-text">In the sprint round, teams will travel to Middlesex County College's
+                        <p10 class="accordion-text">In the sprint round, teams will travel to Middlesex College's
                             campus across the street to compete in the speed tournament. There will be 8 question
                             packets total, and each team will be given the first question packet at the start of the
                             competition. However, teams can only get access to the next packet once they have submitted
                             the previous one. A leaderboard will display the live scores of each team as they submit
                             each packet. The team with the highest score and fastest finish wins! A team's score in this
-                            round also contributes to their final score.</p10>
+                            round also contributes to their final score.
+                        </p10>
                     </div10>
                     <div10 class="accordion__header">
                         <h210 class="accordion-titles">Quiz Bowl Rounds</h210>
                         <span10 class="accordion__toggle"></span10>
                     </div10>
                     <div10 class="accordion__body">
-                        <p10 class="accordion-text">The quiz bowl round is the final competition round. In quiz bowl, 2
+                        <p10 class="accordion-text">The Quiz Bowl round is the final competition round. In Quiz Bowl, 2
                             teams will be pitted against each other. Each team member will have a buzzer, and the
                             moderator will begin to read each question (toss - up). Each toss up consists of clues,
                             where as the toss - up is read, the clues get easier. Once someone figures out what
                             scientific term, scientist, or science concept is being described, they can buzz in and say
-                            the name. For a more detailed overview of the quiz bowl format, please stay tuned at our
-                            opening ceremony or check the FAQs.</p10>
+                            the name. For a more detailed overview of the Quiz Bowl format, please stay tuned at our
+                            opening ceremony or check the FAQs.
+                        </p10>
                     </div10>
                 </div10>
-
             </div1>
         </section1>
-        <!--
-    <section id="format" class="registration-module">
 
-        <div class="left-registration" align="center">
-            <div class = "left-registration-outer">
-                <iframe class = "registration-left-inner" src="sample.pdf">
-                <p>Your browser does not support iframes.</p> </iframe>
-            </div>
-
-        </div>
-        <div class="right-registration">
-            <div class="text-col-inner ">
-                <div class="text-content ">
-                    <div10 class = "fix6">
-                    <h210 class = "fix1">Competition Format</h210>
-                </div10>
-                    <h310 class>How does MCASB work? </h310>
-
-                    <div10 class="accordion">
-                        <div10 class="accordion__header is-active">
-                            <h210>Preliminary Round</h210>
-                            <span10 class="accordion__toggle"></span10>
-                        </div10>
-                        <div10 class="accordion__body is-active">
-                            <p10>In the preliminary round, participants take a team test consisting of multiple-choice and short answer questions. Topics tested include biology, earth science, chemistry, and physics. A team's score in this round contributes to their final score.</p10>
-                        </div10>
-                        <div10 class="accordion__header">
-                            <h210>Sprint Round</h210>
-                            <span10 class="accordion__toggle"></span10>
-                        </div10>
-                        <div10 class="accordion__body">
-                            <p10>In the sprint round, teams will travel to Middlesex County College's campus across the street to compete in the speed tournament. There will be 8 question packets total, and each team will be given the first question packet at the start of the competition. However, teams can only get access to the next packet once they have submitted the previous one. A leaderboard will display the live scores of each team as they submit each packet. The team with the highest score and fastest finish wins! A team's score in this round also contributes to their final score.</p10>
-                        </div10>
-                        <div10 class="accordion__header">
-                            <h210>Third accordion item</h210>
-                            <span10 class="accordion__toggle"></span10>
-                        </div10>
-                        <div10 class="accordion__body">
-                            <p10>The quiz bowl round is the final competition round. In quiz bowl, 2 teams will be pitted against each other. Each team member will have a buzzer, and the moderator will begin to read each question (toss - up). Each toss up consists of clues, where as the toss - up is read, the clues get easier. Once someone figures out what scientific term, scientist, or science concept is being described, they can buzz in and say the name. For a more detailed overview of the quiz bowl format, please stay tuned at our opening ceremony or check the FAQs.</p10>
-                        </div10>
-                    </div10>
--->
-        <!--
-                    <div class="panel-group tab-accordion" id="accordion">
-                        <div class="panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true"><span class="icon-accordion arrow_carrot-up "></span>Preliminary Round</a>
-                                </h4>
-                            </div>
-                            <div id="collapse1" class="panel-collapse collapse  in">
-                                <div class="panel-body">
-                                    <p>In the preliminary round, participants take a team test consisting of multiple-choice and short answer questions. Topics tested include biology, earth science, chemistry, and physics. A team's score in this round contributes to their final score.</p>
-                                </div>
+        <!--Prizes-->
+        <section id="prizes" class="section-padd ">
+            <div class="container wow fadeInUp">
+                <div class="row ">
+                    <div class="row-centered ">
+                        <div class="col-centered col-md-6 col-xs-12 ">
+                            <div class="about-text text-center ">
+                                <h2>Prizes and Awards</h2>
+                                <p>We have various prizes for the different divisions.</p>
                             </div>
                         </div>
-                        <div class="panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><span class="icon-accordion arrow_carrot-down"></span>Sprint Round</a>
-                                </h4>
-                            </div>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p>In the sprint round, teams will travel to Middlesex County College's campus across the street to compete in the speed tournament. There will be 8 question packets total, and each team will be given the first question packet at the start of the competition. However, teams can only get access to the next packet once they have submitted the previous one. A leaderboard will display the live scores of each team as they submit each packet. The team with the highest score and fastest finish wins! A team's score in this round also contributes to their final score.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><span class="icon-accordion arrow_carrot-down"></span>Quiz Bowl Round</a>
-                                </h4>
-                            </div>
-                            <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p>The quiz bowl round is the final competition round. In quiz bowl, 2 teams will be pitted against each other. Each team member will have a buzzer, and the moderator will begin to read each question (toss - up). Each toss up consists of clues, where as the toss - up is read, the clues get easier. Once someone figures out what scientific term, scientist, or science concept is being described, they can buzz in and say the name. For a more detailed overview of the quiz bowl format, please stay tuned at our opening ceremony or check the</p>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
--->
-    </div>
-
-    </div>
+                    <div class="table-price text-center clearfix mg-tp-60 ">
+                        <div class="col-xs-12 col-sm-4 active">
+                            <div class="table-inner ">
+                                <div class="table-plan text-center ">
+                                    <i class="icon-support "></i>
+                                    <h3>Best Teams</h3>
+                                </div>
+                                <div class="content-plan ">
+                                    <ul>
+                                        <li>First Place: TBD</li>
+                                        <li>Second Place: TBD</li>
+                                        <li>Third Place: TBD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 active ">
+                            <div class="table-inner ">
+                                <div class="table-plan text-center ">
+                                    <i class="icon-present "></i>
+                                    <h3>Playoff Individuals</h3>
+                                </div>
+                                <div class="content-plan ">
+                                    <ul>
+                                        <li>First Place: TBD</li>
+                                        <li>Second Place: TBD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 active">
+                            <div class="table-inner ">
+                                <div class="table-plan text-center ">
+                                    <i class="icon-briefcase "></i>
+                                    <h3>Consolation Individuals</h3>
+                                </div class="content-plan ">
+                                <div class="content-plan ">
+                                    <ul>
+                                        <li>First Place: TBD</li>
+                                        <li>Second Place: TBD</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
     </section>
 
-    <!--Princing-->
-
-    <section id="prizes" class="section-padd ">
-
-        <!--container-->
-
-        <div class="container wow fadeInUp">
-            <div class="row ">
-
-                <div class="row-centered ">
-
-                    <div class="col-centered col-md-6 col-xs-12 ">
-
-                        <div class="about-text text-center ">
-
-                            <h2>Prizes and Awards</h2>
-
-                            <p>We have various prizes for the different divisions.</p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="table-price text-center clearfix mg-tp-60 ">
-
-                    <!--table price-->
-
-
-                    <div class="col-xs-12 col-sm-4 active">
-                        <div class="table-inner ">
-
-                            <div class="table-plan text-center ">
-                                <i class="icon-support "></i>
-                                <h3>First Place Team Prizes</h3>
-                            </div>
-
-                            <div class="content-plan ">
-
-
-
-
-                                <ul>
-                                    <li>5 $72 Wolfram Alpha Premium Annual Subscriptions</li>
-                                    <li>Second Place: TBD</li>
-                                    <li>Third Place: TBD</li>
-                                </ul>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!--table price-->
-                    <div class="col-xs-12 col-sm-4 active ">
-                        <div class="table-inner ">
-
-                            <div class="table-plan text-center ">
-                                <i class="icon-present "></i>
-                                <h3>Playoff Individual Prizes</h3>
-                            </div>
-
-                            <div class="content-plan ">
-
-
-                                <ul>
-                                    <li>First Place: TBD</li>
-                                    <li>First Place: TBD</li>
-                                </ul>
-
-
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                    <!--table price-->
-                    <div class="col-xs-12 col-sm-4 active">
-                        <div class="table-inner ">
-
-                            <div class="table-plan text-center ">
-                                <i class="icon-briefcase "></i>
-                                <h3>Consolation Round Individual Prizes</h3>
-                            </div <div class="content-plan ">
-
-                            <ul>
-                                <li>First Place: TBD</li>
-                                <li>Second Place: TBD</li>
-
-                            </ul>
-
-                        </div>
-
-
-                    </div>
-                </div>
-                <!--table price-->
-
-            </div>
-        </div>
-
-        <!--container-->
-
-        </div>
-
-    </section>
-
-
-    <!--End Pricing-->
-
-
-
+    <!-- Statistics -->
     <section id="features" class="pd-tp-80 bg-color-1">
-
-        <!--container-->
-
         <div class="container ">
             <div class="row ">
-
                 <div class="row-centered ">
-
                     <div class="col-centered col-md-6 col-xs-12 ">
-
                         <div class="about-text text-center ">
-
-                            <h2>MCASB 2021 Statistics</h2>
-
-                            <p class="mg-bt-30 ">Although it was virtual, last year's competition brought in students
-                                from around the nation to participate in MCASB 2021.
+                            <h2>MCASB 2022 Statistics</h2>
+                            <p class="mg-bt-30 ">
+                                Last year's in-person competition brought in
+                                students from around the nation to participate.
                             </p>
-
-
                         </div>
-
                     </div>
-
                 </div>
-
                 <div class="features-warpper pd-tp-50 clearfix ">
-                    <!--feature block-->
-
                     <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp ">
-
                         <div class="feature-block ">
-
                             <i class=" icon_mail_alt"></i>
                             <h3>30+</h3>
                             <p>Teams Participated </p>
-
                         </div>
                     </div>
-                    <!--feature block-->
-
-
                     <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp ">
-
                         <div class="feature-block ">
-
                             <i class="  icon_genius"></i>
                             <h3>120+</h3>
                             <p>Participants</p>
-
                         </div>
                     </div>
-
-                    <!--feature block-->
-
                     <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp ">
-
                         <div class="feature-block ">
-
                             <i class="icon_desktop"></i>
-                            <h3>$500+</h3>
+                            <h3>$5000+</h3>
                             <p>In Prizes</p>
-
                         </div>
                     </div>
-
                     <div class="col-md-3 col-sm-3 col-xs-12 wow fadeInUp ">
-
                         <div class="feature-block ">
-
                             <i class=" icon_piechart"></i>
                             <h3>Tons</h3>
-                            <p>of Fun</p>
-
+                            <p>Of Fun</p>
                         </div>
                     </div>
-
-
-
-
-
                 </div>
             </div>
-
-            <!--container-->
         </div>
-
         <div class="feature-bottom-img">
             <img src="assets/images/app-img.png" alt="">
         </div>
-
     </section>
 
-    <!--Featrues app-->
-
-    <!--FAQs-->
-
+    <!-- FAQs -->
     <section id="faqs" class="section-padd clearfix">
-
         <h2 style="line-height:40px">Frequently Asked Questions</h2>
-        <div class = "spacing-new">
-
+        <div class="spacing-new">
         </div>
-
-        <div class = "faqs-main-new">
-            <div class = "faqs-left-new">
-                <p class = "faq-header-new">Before the Competition</p>
+        <div class="faqs-main-new">
+            <div class="faqs-left-new">
+                <p class="faq-header-new">Before the Competition</p>
                 <div10 class="accordion-new">
                     <div10 class="accordion__header-new">
-
-                        <h210 class="accordion-titles-new">Why is this competition
-                            being held?</h210>
+                        <h210 class="accordion-titles-new">
+                            Why is this competition being held?</h210>
                         <span10 class="accordion__toggle-new is-active"></span10>
                     </div10>
                     <div10 class="accordion__body-new">
-                        <p10 class="accordion-text-new is-active">The Middlesex County Academy is a school dedicated to
+                        <p10 class="accordion-text-new is-active">
+                            The Edison Academy Magnet School is a school dedicated to
                             STEM education and awareness. Our passion for science is what drove us to
                             initiate this competition to help young students discover their passion and
-                            learn more in the sciences.</p10>
+                            learn more in the sciences.
+                        </p10>
                     </div10>
-                    <div class = "accordion-bar-new"></div>
+                    <div class="accordion-bar-new"></div>
                     <div10 class="accordion__header-new">
-                        <h210 class="accordion-titles-new">Is this competition for
-                            me?</h210>
+                        <h210 class="accordion-titles-new">
+                            Is this competition for me?
+                        </h210>
                         <span10 class="accordion__toggle-new"></span10>
                     </div10>
                     <div10 class="accordion__body-new">
-                        <p10 class="accordion-text-new">This competition is for anyone who shares a passion for science or simply
-                            wants to try their hands on it. It is, however, restricted to students in
-                            middle and upper elementary school (grades 5 - 8).</p10>
+                        <p10 class="accordion-text-new">
+                            This competition is for anyone who shares a passion for
+                            science or simply wants to try their hands on it. It is,
+                            however, restricted to students in middle and upper elementary
+                            school (grades 5 - 8).</p10>
                     </div10>
-                    <div class = "accordion-bar-new"></div>
+                    <div class="accordion-bar-new"></div>
                     <div10 class="accordion__header-new">
                         <h210 class="accordion-titles-new">How should I prepare for
                             MCASB?</h210>
                         <span10 class="accordion__toggle-new"></span10>
                     </div10>
                     <div10 class="accordion__body-new">
-                        <p10 class="accordion-text-new">MCASB competition tests concepts in physics, chemistry, biology, and
-                            environmental sciences at the middle school level. The goal of this
+                        <p10 class="accordion-text-new">MCASB competition tests concepts in physics, chemistry,
+                            biology, and earth science at the middle school level. The goal of this
                             competition is to encourage learning in the sciences. To prepare optimally,
                             we encourage that you improve upon your conceptual understanding instead of
-                            memorizing facts. Remember, there are 3 quiz bowl rounds, so you may want to
-                            learn in advance how the quiz bowl format works. We will send out a
+                            memorizing facts. Remember, there are 3 Quiz Bowl rounds, so you may want to
+                            learn in advance how the Quiz Bowl format works. We will send out a
                             tournament guide to discuss the logistics for all the tournament rounds.</p10>
                     </div10>
                     <div10 class="accordion__body-new">
-                </div10>
+                    </div10>
             </div>
-            <div class = "faqs-right-new">
-                <p class = "faq-header-new">During the Competition</p>
+            <div class="faqs-right-new">
+                <p class="faq-header-new">During the Competition</p>
                 <div10 class="accordion-new">
                     <div10 class="accordion__header-new">
-
-                        <h210 class="accordion-titles-new is-active">How does Quiz Bowl
-                            Work?</h210>
+                        <h210 class="accordion-titles-new is-active">
+                            How does Quiz Bowl Work?
+                        </h210>
                         <span10 class="accordion__toggle-new is-active"></span10>
                     </div10>
                     <div10 class="accordion__body-new">
-                        <p10 class="accordion-text-new is-active">In a quiz bowl round, 2 teams will be pitted against each other. Each member
+                        <p10 class="accordion-text-new is-active">
+                            In a Quiz Bowl round, 2 teams will be pitted against each other. Each member
                             on the team will have a buzzer. The moderator will begin to read "clues"
                             about a scientific term, location, scientist, or concept. Any competitor on
                             either team can buzz in while the moderator is still speaking and answer.
                             However, please note that only the buzzer can answer the question.<br><br>
                             If the buzzer answers correctly within the first couple of seconds, their
                             team will get 15 points. If the buzzer answers incorrectly within the first
-                            couple of seconds, their team will lose 5 points.<br><br>
+                            couple of seconds, their team will lose 5 points.
+                            <br><br>
                             If the buzzer answers correctly before the time is up, their team will get
                             10 points. If the buzzer answers incorrectly or nobody buzzes before the
-                            time is up, their team will not lose any points.<br><br>
+                            time is up, their team will not lose any points.
+                            <br><br>
                             If a team gets a question right, they will subsequently get 3 bonus
                             questions to answer. These bonuses can only be answered by the team who got
                             the initial question right, and teams can collaborate to provide an answer
                             to each bonus within 10 seconds of the moderator reading the question. If
-                            they get a bonus question correct, they can get 10 extra points.<br><br>
+                            they get a bonus question correct, they can get 10 extra points.
+                            <br><br>
                             Once the bonus questions have been asked, the moderator will move on to the
-                            next question.<br><br></p10>
+                            next question.<br><br>
+                        </p10>
                     </div10>
-                    <div class = "accordion-bar-new"></div>
+                    <div class="accordion-bar-new"></div>
                     <div10 class="accordion__header-new">
-                        <h210 class="accordion-titles-new">Is there a day-of overview?</h210>
+                        <h210 class="accordion-titles-new">
+                            Is there a day-of overview?
+                        </h210>
                         <span10 class="accordion__toggle-new"></span10>
                     </div10>
                     <div10 class="accordion__body-new">
-                        <p10 class="accordion-text-new">On the day of the competition, you first attend our opening ceremony. All
+                        <p10 class="accordion-text-new">
+                            On the day of the competition, you first attend our opening ceremony. All
                             competition logistics and rules will be explained there. We will be sending
                             out room assignments regarding where your team needs to go for each round.
-                            We'll be making regular announcements with any changes.</p10>
+                            We'll be making regular announcements with any changes.
+                        </p10>
                     </div10>
-                    <div class = "accordion-bar-new"></div>
+                    <div class="accordion-bar-new"></div>
                     <div10 class="accordion__header-new">
-                        <h210 class="accordion-titles-new">How are Winners Be Determined?</h210>
+                        <h210 class="accordion-titles-new">
+                            How are Winners Be Determined?
+                        </h210>
                         <span10 class="accordion__toggle-new"></span10>
                     </div10>
                     <div10 class="accordion__body-new">
-                        <p10 class="accordion-text-new">Teams will be given points based on their ranking in each of the rounds of the tournament. Lower points indicate a higher overall ranking, similar to golf score. <br>
-                            For the preliminary round, a team coming in nth place will get n points. First place team will get 1 point, while tenth place team will get 10 points.
-                            For the sprint round, teams will be given points in the same fashion. <br> <br>
-                            For the quiz bowl round, the teams will be ranked and split into groups of 4. There, they will compete in the quiz bowl format with teams in their group. After a team has competed in the quiz bowl format against all other teams in their group, the teams from the highest group and second highest group with the most wins will compete against each other to determine the 2 winners of the general round. <br>
-                            Teams that do not make it to this final quiz bowl round are still eligible for general round prizes. For instance, if a team makes it to the third highest quiz bowl group, they can still do very well in their group and have a chance at the third or fourth place general round prizes. In fact, this happened at our 2022 competition. This mechanic unique to MCASB is present to allow underdogs to have a chance to catch up to the frontrunners, and also challenges frontrunners to give their best effort.
+                        <p10 class="accordion-text-new">
+                            Teams will be given points based on their ranking in each of the rounds of the
+                            tournament. Lower points indicate a higher overall ranking, similar to golf score.
+                            <br>
+                            For the preliminary round, a team coming in nth place will get n points. First place
+                            team will get 1 point, while tenth place team will get 10 points.For the sprint round,
+                            teams will be given points in the same fashion.
+                            <br> <br>
+                            For the Quiz Bowl round, the teams will be ranked and split into groups of 4. There,
+                            they will compete in the Quiz Bowl format with teams in their group. After a team has
+                            competed in the Quiz Bowl format against all other teams in their group, the teams from
+                            the highest group and second highest group with the most wins will compete against each
+                            other to determine the 2 winners of the general round. <br>
+                            Teams that do not make it to this final Quiz Bowl round are still eligible for general
+                            round prizes. For instance, if a team makes it to the third highest Quiz Bowl group, they
+                            can
+                            still do very well in their group and have a chance at the third or fourth place general
+                            round prizes. In fact, this happened at our 2022 competition. This mechanic unique to
+                            MCASB is present to allow underdogs to have a chance to catch up to the frontrunners, and
+                            also
+                            challenges frontrunners to give their best effort.
                         </p10>
                     </div10>
                     <div10 class="accordion__body-new">
-                </div10>
+                    </div10>
             </div>
         </div>
-
-
     </section>
 
-    <!--End of FAQs-->
-
-
-    <!--Testimonials-->
-
-
-
-    <!--End testimonials-->
-
-    <div class="demo-row">
+    <!-- Sponsors -->
+    <!-- <div class="demo-row">
         <div class="container" id="id-sponsors">
             <div class="text-center">
                 <h2 style="margin:20px 0;color:#fff;">Platinum Sponsors</h2>
             </div>
             <div id="sponsor-carousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 </ol>
-                <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <div class="row">
                             <div class="col-sm-3 col-xs-6">
-                                <div class="sponsor-feature"><img alt="" src="assets/images/c2.png"
-                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
                             </div>
                             <div class="col-sm-3 col-xs-6">
-                                <div class="sponsor-feature"><img alt="" src="assets/images/stickergiant.png"
-                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
                             </div>
                             <div class="col-sm-3 col-xs-6">
-                                <div class="sponsor-feature"><img alt="" src="assets/images/saicpaservices.png"
-                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
                             </div>
                             <div class="col-sm-3 col-xs-6">
-                                <div class="sponsor-feature"><img alt="" src="assets/images/starsolitaire1.png"
-                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="row">
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="sponsor-feature"><img alt="" src="assets/images/wolfram.png"
-                                    style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="sponsor-feature"><img alt="" src="assets/images/aops.png"
-                                    style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="sponsor-feature"><img alt="" src="assets/images/njstemmonth.jpg"
-                                    style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="sponsor-feature"><img alt="" src="assets/images/academyfoundation.png"
-                                    style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" /></div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="sponsor-feature"><img alt="" src="assets/images/"
+                                        style="width: 80%; height: 80%; max-width: 200px; max-height: 150px;" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    </div>
+    </div> -->
 
-    <!--Featrues app-->
-
+    <!-- Contact -->
     <section id="contact" class="clearfix  pd-tp-80 pd-bt-60 ">
-
         <div class="feature-inner-right ">
             <div class="feature-col-left ">
                 <div class="feature-col-inner ">
                     <div class="text-content-features">
                         <h2>Contact Us</h2>
-
                         <p>
                             Our inbox is always open. Please read the following information.
                         </p>
-
                         <ul class="list-block ">
-
                             <li>We will be posting the spreadsheet for day-of activities on the website during the
                                 competition. </li>
                             <li>You must be checking this website regularly for updates.</li>
@@ -1042,10 +685,8 @@
                                 please check it regularly.</li>
                             <li>Reach out to us @ <a>mcasciencebowl@gmail.com</a></li>
                         </ul>
-
                         <a href="mailto:mcasciencebowl@gmail.com" class="btn btn-color ">Reach Out</a>
                     </div>
-
                 </div>
             </div>
             <div class="feature-col-right ">
@@ -1054,40 +695,23 @@
                         <img src="assets/images/contact.svg " style="margin-left: -40px;" alt="">
                     </figure>
                 </div>
-
             </div>
         </div>
-
     </section>
 
-    <!--Featrues app-->
-
-
-
     <!--Footer -->
-
-
     <footer class="footer ">
-
         <div class="footer-warpper ">
             <div class="container ">
                 <div class="row ">
-
                     <div class="footer-top  clearfix ">
                         <div class="footer-top-content clearfix ">
                             <div class="col-md-6 col-xs-12 col-sm-6 ">
-
                                 <h1> Register if you're interested in science.</h1>
-
                             </div>
-
                             <div class="col-md-6 col-xs-12 col-sm-6 ">
-                                <!-- Newsletter -->
                                 <div class="newsletter-block ">
-
-
                                     <div class="subscribe-form ">
-
                                         <form action="# " method="post " class="subscribe-mail ">
                                             <div class="form-group ">
                                                 <input type="email " class="form-control email-input "
@@ -1097,44 +721,31 @@
                                             </div>
                                             <p class="error-message "></p>
                                             <p class="sucess-message "></p>
-
                                         </form>
                                     </div>
                                 </div>
-                                <!-- Newsletter -->
                             </div>
-
                         </div>
-
                         <div class="footer-bottom-content clearfix ">
-
-                            <!--Footer Column 1-->
-
                             <div class="col-md-6 col-sm-12 col-xs-12 ">
-
                                 <div class="row ">
-
                                     <div class="col-md-7 col-sm-6 col-xs-12 ">
-
                                         <div class="logo-footer ">
                                             <h2 style="color: #fff; margin-top: 7px;">MCASB</h2>
-
                                         </div>
                                         <div class="text-footer ">
                                             <p>
                                                 A science competition for middle schoolers passionate about science.
-                                                Hosted by MCA for SMET.
+                                                Hosted by the Edison Academy Magnet School.
                                             </p>
                                         </div>
-
-
                                         <ul class="list-social list-inline ">
                                             <li>
-                                                <a href="# " target="_blank " class="btn btn-circle btn-facebook ">
+                                                <a href="https://www.facebook.com/pages/Middlesex%20County%20Academy/112611255420077/"
+                                                    target="_blank " class="btn btn-circle btn-facebook ">
                                                     <i class="social_facebook "></i>
                                                 </a>
                                             </li>
-
                                             <li>
                                                 <a href="mcasciencebowl@gmail.com " target="_blank "
                                                     class="btn btn-circle btn-google-plus ">
@@ -1142,185 +753,79 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="# " target="_blank " class="btn btn-circle btn-instgram ">
+                                                <a href="https://www.instagram.com/edisonacademymagnetschool/"
+                                                    target="_blank " class="btn btn-circle btn-instgram ">
                                                     <i class="social_instagram "></i>
                                                 </a>
                                             </li>
-
                                         </ul>
                                     </div>
-
-
                                     <div class="col-md-5 col-sm-6 col-xs-12 ">
-
                                         <h5>Menu</h5>
-
                                         <ul class="list-menu ">
                                             <li>
                                                 <a href="#about">About </a>
                                             </li>
-
                                             <li>
                                                 <a href="#register">Register</a>
                                             </li>
-
                                             <li>
-                                                <a href="#format">Format</a>
+                                                <a href="#info">Format</a>
                                             </li>
-
                                             <li>
                                                 <a href="#prizes">Prizes</a>
                                             </li>
-
-
                                         </ul>
-
                                     </div>
-
                                 </div>
-
                             </div>
-
-                            <!-- End Footer Column 1-->
-
-                            <!--Footer Column 2-->
-
-
                             <div class="col-md-6 col-sm-12 col-xs-12 ">
-
                                 <div class="row ">
-
                                     <div class="col-md-6 col-sm-6 col-xs-12 ">
-
                                         <h5>Useful links </h5>
-
                                         <ul class="list-menu ">
-
                                             <li>
                                                 <a href="#">Terms</a>
                                             </li>
-
                                             <li>
                                                 <a href="#">Privacy </a>
                                             </li>
-
                                             <li>
                                                 <a href="#contact">Contact</a>
                                             </li>
-
-
-
                                             <li>
                                                 <a href="#faqs">FAQs</a>
                                             </li>
                                         </ul>
-
                                     </div>
-
-
                                 </div>
-
                             </div>
-                            <!-- End Footer Column 2-->
-
-
                         </div>
 
                         <div class="footer-bottom ">
-                            <!-- COPYRIGHT TEXT -->
-
                             <div class="copyright ">
-                                <p>2021-22 © Copyright MCA Science Bowl. All rights Reserved.</p>
+                                <p>2022-23 © Copyright MCA Science League. All rights Reserved.</p>
                             </div>
-                            <!-- COPYRIGHT TEXT -->
-
-
                         </div>
-
-
                     </div>
                 </div>
             </div>
         </div>
-
     </footer>
-
-
-    <!--Footer -->
-
-    <!--Modal login -->
-
-    <div class="modal fade login-modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3>User Login</h3>
-                    <span>Click To Login to strat trial</span>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body clearfix">
-                    <form class="form " action=" " method=" ">
-
-                        <div class="form-group ">
-
-                            <input type="email" name="" class="form-control" placeholder="Username ">
-
-                            <i class="icon_mail_alt"></i>
-
-                        </div>
-
-                        <div class="form-group ">
-
-                            <input type="password" name="" class="form-control" placeholder="Username ">
-
-                            <i class="icon_lock_alt"></i>
-
-                        </div>
-
-                        <div class="form-group ">
-                            <p class="remember">
-                                <input type="checkbox" name="" id="checkbox-1"><label for="checkbox-1">Remember
-                                    me</label>
-                            </p>
-                            <a href="#" title="">Forgot Password?</a>
-
-
-                        </div>
-
-
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-color ">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Modal login -->
-    <script>
-        $(document).ready(function () {
-            $('.toast').toast('show');
-        });
-    </script>
 
     <!-- jQuery -->
     <script src="assets/js/jquery-1.12.4.min.js "></script>
 
-    <!-- Bootstrap Plugins -->
+    <!--  Plugins -->
     <script src="assets/js/bootstrap.min.js "></script>
-
-    <!-- Template Plugins -->
     <script src="assets/js/jquery.easing.js "></script>
     <script src="assets/js/wow.min.js "></script>
     <script src="assets/js/owl.carousel.min.js "></script>
     <script src="assets/js/magnific-popup.min.js "></script>
     <script src="assets/js/jquery.scrollUp.min.js "></script>
     <script src="assets/js/jquery.ajaxchimp.min.js "></script>
-    <!-- Main js -->
+
+    <!-- Scripts -->
     <script src="assets/js/main.js "></script>
     </div>
 </body>

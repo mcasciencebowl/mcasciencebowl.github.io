@@ -67,7 +67,7 @@ Table of content
   text-align: center;
   vertical-align: middle;
   padding-bottom: 40px;
-  padding-top: 80px;
+  padding-top: 150px;
 }
 
 .hero-text1 {
@@ -329,7 +329,7 @@ hr.hr {
 }
 
 .bg-img-hero {
-  background-image: url("earth-1.jpeg");
+  background-image: url("../images/earth-1.jpeg");
 }
 
 /*-------margins padding--------*/
@@ -1158,14 +1158,14 @@ Features accordation
 
 .tab-accordion .panel-heading a[aria-expanded="true"] {
   background-color: #fff;
-  color: ##071f4e;
+  color: #071f4e;
   box-shadow: 0 7px 15px rgba(0, 9, 128, 0.05),
     0 12px 28px rgba(0, 9, 128, 0.075);
 }
 
 .tab-accordion .panel-heading a:hover,
 .tab-accordion .panel-heading a:focus {
-  color: ##071f4e;
+  color: #071f4e;
   box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
   background-color: #fff;
 }
