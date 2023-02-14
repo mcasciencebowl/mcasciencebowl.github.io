@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.results-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #10245c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .navbar-inner {
+        width: 1140px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .navbar-right {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    .navbar-logo {
+        font-size: 38px;
+        font-weight: 500;
+        font-family: "Hk_Groteskregular", sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar-return {
+        color: white;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .main-content {
+        width: 370px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .results-header {
+        font-size: 40px;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        font-weight: 800;
+    }
+
+    .results-spacer {
+        height: 50px;
+    }
+
+    .results-class {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .navbar-inner {
+        width: 1140px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .navbar-right {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    .navbar-logo {
+        font-size: 38px;
+        font-weight: 500;
+        font-family: "Hk_Groteskregular", sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar-return {
+        color: white;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .main-content {
+        width: 575px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .results-header {
+        font-size: 40px;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        font-weight: 800;
+    }
+
+    .results-spacer {
+        height: 50px;
+    }
+
+    .iframe-class {
+        width: 950px;
+        height: 600px;
+    }
+
+    .results-class {
+        width: 550px;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar-inner {
+        width: 1140px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar-right {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .navbar-logo {
+        font-size: 38px;
+        font-weight: 500;
+        font-family: "Hk_Groteskregular", sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar-return {
+        color: white;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .main-content {
+        width: 1140px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .results-header {
+        font-size: 40px;
+        font-family: 'IBM Plex Sans Arabic', sans-serif;
+        font-weight: 800;
+    }
+
+    .results-spacer {
+        height: 50px;
+    }
+
+    .iframe-class {
+        width: 950px;
+        height: 600px;
+    }
+
+    .results-class {
+        width: 950px;
+        height: 600px;
+    }
+}
