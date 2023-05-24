@@ -10,37 +10,38 @@ function makeHttpObject() {
     throw new Error("Could not create HTTP request object.");
 }
 
-window.onload = function () {
+$(document).ready(function () {
     var request = makeHttpObject();
     request.open("GET", sheetLink, true);
     request.send(null);
     request.onreadystatechange = function () {
         if (request.readyState == 4) {
-            const table = document.getElementById("sprintboard").getElementsByTagName("tbody")[0];
+            var table = document.getElementById("sprintboard").getElementsByTagName("tbody")[0];
             response = request.responseText;
-            const parser = new DOMParser().parseFromString(response, "text/html");
+            var parser = new DOMParser().parseFromString(response, "text/html");
             sheet = Array.from(parser.getElementsByTagName("tr"));
             sheet.splice(0, 2);
             for (let i = 0; i < sheet.length; i++) {
-                const row = document.createElement("tr");
+                var row = document.createElement("tr");
                 row.setAttribute("scope", "row");
-                const original = sheet[i].getElementsByTagName("td");
-                console.log(sheet);
+                var original = sheet[i].getElementsByTagName("td");
+
                 // name
-                const name = document.createElement("td");
+                var name = document.createElement("td");
                 name.appendChild(document.createTextNode(original[0].innerText));
                 row.appendChild(name);
                 // points
-                const points = document.createElement("td");
+                var points = document.createElement("td");
                 points.appendChild(document.createTextNode(original[1].innerText));
                 row.appendChild(points);
 
                 table.appendChild(row);
+
             }
-            $('#sprintboard').DataTable({
+            var leaderboard = $('#sprintboard').DataTable({
                 order: [[1, 'desc']],
                 "pageLength": 50,
-            });;
+            });
         }
-    };
-};
+    }
+});
